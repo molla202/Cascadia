@@ -150,3 +150,7 @@ cascadiad tx staking create-validator \
 --gas auto --gas-adjustment 1.5 --gas-prices=7aCC \
 -y
 ```
+### Delege 
+```
+cascadiad tx staking delegate valoper-adresiniz 1000000000000000000aCC --from cüzdanadınız --chain-id cascadia_6102-1 --gas auto --gas-adjustment 1.5 --gas-prices=7aCC
+```
