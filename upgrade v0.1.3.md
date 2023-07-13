@@ -18,6 +18,6 @@ rm -rf $HOME/.cascadiad/data
 curl https://testnet-files.itrocket.net/cascadia/snap_cascadia.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.cascadiad
 
 mv $HOME/.cascadiad/priv_validator_state.json.backup $HOME/.cascadiad/data/priv_validator_state.json
-
+wget -O $HOME/.cascadiad/config/addrbook.json https://testnet-files.itrocket.net/cascadia/addrbook.json
 sudo systemctl restart cascadiad && sudo journalctl -u cascadiad -f
 ```
