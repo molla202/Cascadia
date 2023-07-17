@@ -40,7 +40,7 @@ cd $HOME
 rm -rf cascadia
 git clone https://github.com/cascadiafoundation/cascadia
 cd cascadia
-git checkout v0.1.2
+git checkout v0.1.3
 make install
 ```
 ```sh
