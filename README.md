@@ -67,8 +67,8 @@ sed -i.bak -e "s%^address = \"tcp://0.0.0.0:1317\"%address = \"tcp://0.0.0.0:${C
 s%^address = \":8080\"%address = \":${CASCADIA_PORT}080\"%;
 s%^address = \"0.0.0.0:9090\"%address = \"0.0.0.0:${CASCADIA_PORT}090\"%; 
 s%^address = \"0.0.0.0:9091\"%address = \"0.0.0.0:${CASCADIA_PORT}091\"%; 
-s%^address = \"0.0.0.0:8545\"%address = \"0.0.0.0:${CASCADIA_PORT}545\"%; 
-s%^ws-address = \"0.0.0.0:8546\"%ws-address = \"0.0.0.0:${CASCADIA_PORT}546\"%" $HOME/.cascadiad/config/app.toml
+s%^address = \"127.0.0.1:8545\"%address = \"127.0.0.1:${CASCADIA_PORT}545\"%; 
+s%^ws-address = \"127.0.0.1:8546\"%ws-address = \"127.0.0.1:${CASCADIA_PORT}546\"%" $HOME/.cascadiad/config/app.toml
 ```
 ```sh
 # port yapılandırması config.toml file
