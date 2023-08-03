@@ -1,5 +1,7 @@
 ## Upgrade v0.1.4
 Not: yedeklerinizi alın unutmayın.
+
+## Blok Yüksekliği 1,774,000 geldiğinde yapılacak
 ```
 systemctl stop cascadiad
 cd $HOME
