@@ -1,4 +1,5 @@
-## Upgrade v0.1.5
+## Upgrade v0.1.5 
+Not: 2,229,000 blok yükseliğine gelince
 
 ```
 systemctl stop cascadiad
