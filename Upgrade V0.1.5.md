@@ -27,5 +27,13 @@ EOF
 sudo systemctl daemon-reload
 ```
 ```
+cp $HOME/.cascadiad/data/priv_validator_state.json $HOME/.cascadiad/priv_validator_state.json.backup
+
+rm -rf $HOME/.cascadiad/data 
+curl https://testnet-files.itrocket.net/cascadia/snap_cascadia.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.cascadiad
+
+mv $HOME/.cascadiad/priv_validator_state.json.backup $HOME/.cascadiad/data/priv_validator_state.json
+
 sudo systemctl restart cascadiad && sudo journalctl -u cascadiad -f
 ```
+
