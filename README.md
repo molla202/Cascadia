@@ -40,7 +40,7 @@ cd $HOME
 rm -rf cascadia
 git clone https://github.com/cascadiafoundation/cascadia
 cd cascadia
-git checkout v0.1.4
+git checkout v0.1.5
 make install
 ```
 ```sh
@@ -100,7 +100,7 @@ After=network-online.target
 [Service]
 User=$USER
 WorkingDirectory=$HOME/.cascadiad
-ExecStart=$(which cascadiad) start --home $HOME/.cascadiad
+ExecStart=$(which cascadiad) start --home $HOME/.cascadiad --chain-id cascadia_6102-1
 Restart=on-failure
 RestartSec=5
 LimitNOFILE=65535
