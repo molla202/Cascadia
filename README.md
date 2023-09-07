@@ -1,6 +1,6 @@
 # Cascadia
 
-![98357024](https://github.com/molla202/Cascadia/assets/91562185/87e2300f-fd0c-4b2c-9dae-2c355ffa03a0)
+![image](https://github.com/molla202/Cascadia/assets/91562185/ad3e3dfe-b3dd-46a2-a49f-49a2409d603b)
 
 Topluluk kanalları: - [Cascadia Discord](https://discord.gg/cascadia)
 
