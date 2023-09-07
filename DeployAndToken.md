@@ -1,7 +1,8 @@
+![image](https://github.com/molla202/Cascadia/assets/91562185/ad3e3dfe-b3dd-46a2-a49f-49a2409d603b)
 
 
 
-### Deploy Contract and min token
+### Deploy Contract and mint token >>> SEND
 NOT: işlemler sadece işleyişi anlamanız ve bilgi sahibi olmanız içindir. eksiklikler hatalar ve farklılıklar olabilir.
 https://github.com/molla202/Cascadia/raw/main/cw20_base.wasm
 
@@ -11,7 +12,7 @@ https://github.com/molla202/Cascadia/raw/main/cw20_base.wasm
 * Daha sonra dosyamızı yüklüyoruz ve upload diyoruz. cüzdandan onaylıyoruz.
 * Eğer hata verdiyse şuan sitede bir sorun var demektir. ancak işlemleri explorer üzerinden takip edin >>> [BURADAN](https://testnet.itrocket.net/cascadia)
 * Contract ID nizi öğrenin ve site üzerinden resimlerde görülen işlemleri yapınız.
-* 
+* Expolrer üzerinden bilgileri alıyoruz. normalde site üzerinden bilgiler çıkıyordu ancak bir sorun var sanırım.
 
 
 
