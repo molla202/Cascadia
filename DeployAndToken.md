@@ -9,7 +9,7 @@ https://github.com/molla202/Cascadia/raw/main/cw20_base.wasm
 * Öncelikle dosyamızı indiriyoruz
 * Daha sonra deploy için siteye bağlanıyoruz >>> [BURAYA](https://cosmwasm.cascadia.foundation/contracts/upload/)
 * Node kurduysanız o cüzdanı kullanabilirsiniz ağ üzerinde farklı cüzdan adresiniz çıkıyorsa öncelikle >>> [BURAYA](https://github.com/molla202/Cascadia/blob/main/farkl%C4%B1%20c%C3%BCzdan%20sorunu.md) bakınız
-* Daha sonra dosyamızı yüklüyoruz ve upload diyoruz. cüzdandan onaylıyoruz.
+* Daha sonra dosyamızı yüklüyoruz ve upload diyoruz. cüzdandan onaylıyoruz. lürfen gas ayarı yapınız fail alıyorsanız keplr üzerinden  ayarlama kısmında 3 ile başlayanı 5 yapınız.
 * Eğer hata verdiyse şuan sitede bir sorun var demektir. ancak işlemleri explorer üzerinden takip edin >>> [BURADAN](https://testnet.itrocket.net/cascadia)
 * Contract ID nizi öğrenin ve site üzerinden resimlerde görülen işlemleri yapınız.
 * Explorer üzerinden bilgileri alıyoruz. normalde site üzerinden bilgiler çıkıyordu ancak bir sorun var sanırım.
