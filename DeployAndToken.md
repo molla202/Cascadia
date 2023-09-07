@@ -31,6 +31,43 @@ https://github.com/molla202/Cascadia/raw/main/cw20_base.wasm
 
 
 
+-------------------------------------------------------------------------------------------------------------
+## Deploy and token mint >>> send 
+### kontratı sunucuya indirelim.
+```
+curl -sSL -o cw20_base.wasm https://github.com/molla202/Cascadia/raw/main/cw20_base.wasm
+```
+### ağa yükleyelim
+```
+cascadiad tx wasm store ./cw20_base.wasm --from wallet --gas-adjustment 1.8 --chain-id cascadia_6102-1 --gas auto --gas-prices 150aCC -y
+```
+![image](https://github.com/molla202/Cascadia/assets/91562185/94b870d9-5941-47e9-a12c-7492ab8d8612)
+
+### tokenimizin ayarlamalarını yapalım ve akıllı sözleşmenin dağıtım işlemini yapalım
+```
+INIT='{"name":"isimyazın","symbol":"semboladıyazın","decimals":6,"initial_balances":[{"address":"ADRESİNİZİYAZIN","amount":"5000000"}],"mint":{"minter":"ADRESİNİZİYAZIN"},"marketing":{}}'
+cascadiad tx wasm instantiate CODE-ID-NİZİ-YAZIN $INIT --from CUZDAN-ADINIZI-YAZIN --label "test" --gas-adjustment 1.5 --gas auto --gas-prices 70aCC --no-admin -y
+```
+![image](https://github.com/molla202/Cascadia/assets/91562185/2b16a87a-49c9-4dd3-a08c-43d1a7a8676f)
+### execute işlemi için komut varyasyonlarını yazalım
+```
+CONTRACT=$(cascadiad query wasm list-contract-by-code CODEIDNIZIYAZIN --output json | jq -r '.contracts[-1]')
+```
+```
+TRANSFER='{"transfer":{"recipient":"GÖNDERMEKİSTEDİĞİNİZADRES","amount":"100"}}'
+```
+### ve son olarak execute işlemi yapalım
+```
+cascadiad tx wasm execute $CONTRACT $TRANSFER --gas-adjustment 1.9 --gas-prices 150aCC --from cüzdan-adınız -y
+```
+NOT: ağda işlemlerimiz bu isimlerde görunuyor onaylandığındna emin olalım.
+![image](https://github.com/molla202/Cascadia/assets/91562185/df0de9b4-afa3-4161-b7ec-3e7ba4a3e24f)
+![image](https://github.com/molla202/Cascadia/assets/91562185/a8901644-f630-4990-8f6a-767220d0ca69)
+![image](https://github.com/molla202/Cascadia/assets/91562185/8e07918c-9dc3-4dd5-bf40-2b5feb12c98c)
+
+
+
+
 
 
 
