@@ -12,7 +12,8 @@ https://github.com/molla202/Cascadia/raw/main/cw20_base.wasm
 * Daha sonra dosyamızı yüklüyoruz ve upload diyoruz. cüzdandan onaylıyoruz.
 * Eğer hata verdiyse şuan sitede bir sorun var demektir. ancak işlemleri explorer üzerinden takip edin >>> [BURADAN](https://testnet.itrocket.net/cascadia)
 * Contract ID nizi öğrenin ve site üzerinden resimlerde görülen işlemleri yapınız.
-* Expolrer üzerinden bilgileri alıyoruz. normalde site üzerinden bilgiler çıkıyordu ancak bir sorun var sanırım.
+* Explorer üzerinden bilgileri alıyoruz. normalde site üzerinden bilgiler çıkıyordu ancak bir sorun var sanırım.
+* Explorer üzerinde onaylanan işlem sırasında hash tıklayın ve en alta inin 3 nokta ... tıklayarak mesajları genişletip bilgilere ulaşabilirsiniz.
 
 
 
