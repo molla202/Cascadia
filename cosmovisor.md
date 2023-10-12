@@ -1,11 +1,12 @@
 ### v0.1.7 cosmovisor upgrade
+```
 curl -L https://github.com/CascadiaFoundation/cascadia/releases/download/v0.1.7/cascadiad -o cascadiad
 sudo chmod u+x cascadiad
 
 mkdir -p $HOME/.cascadiad/cosmovisor/upgrades/v0.1.7/bin
 mv cascadiad $HOME/.cascadiad/cosmovisor/upgrades/v0.1.7/bin/
 
-
+```
 
 ## setup
 ```
