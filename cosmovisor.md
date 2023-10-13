@@ -31,6 +31,7 @@ mv cascadiad $HOME/.cascadiad/cosmovisor/upgrades/v0.1.6/bin/
 ```
 -----------
 # set vars
+Not: write moniker and wallet name
 ```
 echo "export WALLET="wallet"" >> $HOME/.bash_profile
 echo "export MONIKER="test"" >> $HOME/.bash_profile
@@ -76,7 +77,7 @@ EOF
 cascadiad config node tcp://localhost:${CASCADIA_PORT}657
 cascadiad config keyring-backend os
 cascadiad config chain-id cascadia_6102-1
-cascadiad init "test" --chain-id cascadia_6102-1
+cascadiad init $MONIKER --chain-id cascadia_6102-1
 ```
 # download genesis and addrbook
 ```
