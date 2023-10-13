@@ -1,4 +1,4 @@
-`Upgrade to 0.1.6`
+`Upgrade to 0.1.7`
 
 `height: 2,820,000`
 
