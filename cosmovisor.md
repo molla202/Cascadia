@@ -20,14 +20,16 @@ sudo chmod u+x cascadiad
 mkdir -p $HOME/.cascadiad/cosmovisor/genesis/bin
 mv cascadiad $HOME/.cascadiad/cosmovisor/genesis/bin/
 ```
+------------------------
+Notice: Problem log v0.1.6 
 ```
 curl -L https://github.com/CascadiaFoundation/cascadia/releases/download/v0.1.6/cascadiad -o cascadiad
 sudo chmod u+x cascadiad
 
 mkdir -p $HOME/.cascadiad/cosmovisor/upgrades/v0.1.6/bin
 mv cascadiad $HOME/.cascadiad/cosmovisor/upgrades/v0.1.6/bin/
-
 ```
+-----------
 # set vars
 ```
 echo "export WALLET="wallet"" >> $HOME/.bash_profile
