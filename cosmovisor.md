@@ -21,7 +21,7 @@ mkdir -p $HOME/.cascadiad/cosmovisor/genesis/bin
 mv cascadiad $HOME/.cascadiad/cosmovisor/genesis/bin/
 ```
 ------------------------
-Notice: Problem log v0.1.6 
+Notice: Skip this, if it gives an error you can use it. Problem log v0.1.6 
 ```
 curl -L https://github.com/CascadiaFoundation/cascadia/releases/download/v0.1.6/cascadiad -o cascadiad
 sudo chmod u+x cascadiad
