@@ -1,6 +1,6 @@
 `Upgrade to 0.1.8`
 
-`height: `
+`height: 3,400,000`
 
 ### Manual Upgrade
 ```
