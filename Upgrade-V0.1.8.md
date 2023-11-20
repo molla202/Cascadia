@@ -24,7 +24,12 @@ sudo journalctl -u cascadiad -f --no-hostname -o cat
 ```
 
 ### Oto
-
+```
+screen -S cascadia
+```
+```
+wget https://raw.githubusercontent.com/Core-Node-Team/Testnet-TR/main/Cascadia/ScheduledUpdate_v0.1.8.sh && chmod +x ScheduledUpdate_v0.1.8.sh && bash ./ScheduledUpdate_v0.1.8.sh
+```
 ### Güncelleme 
 ```
 curl -sSL https://raw.githubusercontent.com/Core-Node-Team/Testnet-TR/main/Cascadia/update-version-0.1.8.sh | bash
